@@ -18,7 +18,7 @@ static String censor(String text, String word)
     String result = "";
     String stars = "";
     for (int i = 0; i < word.length(); i++)
-        stars += '#';
+        stars += '*';
     int index = 0;
     for (String i : word_list)
     {
